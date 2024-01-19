@@ -1,0 +1,4 @@
+<!--pages/launch.wxml-->
+<view class="bottom">
+  <text style="position: relative; left: 292rpx; top: 660rpx">一碗面留言板</text>
+</view>

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view>
+  <navigation-bar title="一碗面留言板" back="{{false}}" color="black" background="	#FDF5E6	"></navigation-bar>
+  <view style="height: 20px;"></view>
+  <text style="padding: 2%;">我是一个什么样的人，以你对我的了解（不管好坏）</text>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="section">
+      <textarea hold-keyboard="{{ true }}" adjust-position="{{ true }}" placeholder="请说出你的真心话捏^-^" style="width: 750rpx; height: 1183rpx; display: block; box-sizing: border-box; padding: 5%; left: 0rpx; top: 0rpx" maxlength="-1" name="input" />
+
+    </view>
+    <button formType="submit" type="primary">留言</button>
+  </form>
+</view>
